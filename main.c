@@ -4,11 +4,11 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 
-void swap(int *a, int *b){
+void swap(int *x, int *y){
 	int temp;
-	temp= *a;
-	*a= *b;
-	*b=temp;
+	temp= *x;
+	*x= *y;
+	*y=temp;
 	
 }
 
